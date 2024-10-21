@@ -1,0 +1,126 @@
+/* Global Styles */
+body.body-class {
+  background-color: #f5f5f5; /* Subtle background color */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header Styling */
+header.header-class {
+  background-color: #333; /* Contrasting background */
+  color: #fff; /* White font for better visibility */
+  padding: 15px;
+  text-align: center;
+}
+
+nav.nav-class a {
+  color: #ddd;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 400;
+}
+nav.nav-class a:hover,
+nav.nav-class .active {
+  font-weight: bold; /* Bold active or hovered links */
+}
+
+/* Titles Styling */
+h1.title-class {
+  color: #e63946; /* Distinct color for the main title */
+}
+
+h2.section-title-class {
+  color: #1d3557; /* Another distinct color for section titles */
+}
+
+/* Text Styling */
+p.text-class {
+  color: #333; /* Good contrast against the body background */
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+/* Image Styling */
+img.image-class {
+  border: 4px solid #457b9d; /* Complementary border color */
+  max-width: 100%; /* Ensure responsiveness */
+  height: auto;
+}
+
+/* Form and Button Styling */
+form.form-class {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f1faee; /* Cohesive background color */
+  border-radius: 5px;
+}
+
+input.input-class {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input.button-class {
+  background-color: #e63946; /* Button color matching theme */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+input.button-class:hover {
+  background-color: #d62828;
+}
+
+/* Footer Styling */
+footer.footer-class {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav.nav-class {
+    display: block;
+    text-align: center;
+  }
+
+  input.input-class {
+    width: 100%;
+  }
+
+  .hero-section-class img {
+    width: 100%; /* Scale images on smaller screens */
+  }
+}
+
+/* Accessibility Enhancements */
+a:focus {
+  outline: 3px dashed #e63946; /* Visible focus indicator */
+}
+
+img.image-class {
+  /* Ensure all images have descriptive alt text */
+  alt: "Image describing CSS Crusher as a superhero figure";
+}
+
+body {
+  font-size: 16px; /* Maintain readable text size */
+  overflow-wrap: break-word;
+  text-align: left;
+}
+
+
+
+#this needsbe in the HTML File 
+#<head>
+  #<title>CSS Crusher - Home</title>
+  #<link rel="stylesheet" href="styles.css">
+#</head>
